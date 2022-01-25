@@ -1,0 +1,22 @@
+.scrollup {
+    position: fixed;
+    color: #77664e;
+    right: 25px;
+    bottom: 25px;
+    border: 3px solid #fff;
+    border-radius: 26px;
+    padding: 7px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 1;
+    background: #e1cfb3;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+  }
+  .scrollup i {
+   display: block;
+   text-align: center; 
+}

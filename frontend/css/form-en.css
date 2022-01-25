@@ -1,0 +1,291 @@
+
+.content-form {
+  margin-top: 35px;
+}
+@media (max-width: 425px) {
+  .content-form {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-form .container {
+    max-width: 1250px;
+  }
+}
+.content-form .container .login-form {
+  width: 70%;
+  float: right;
+}
+@media (max-width: 992px) {
+  .content-form .container .login-form {
+    width: 100%;
+  }
+}
+.content-form .container .login-form .login {
+  position: relative;
+  overflow: hidden;
+  font-family: "cairo", sans-serif;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px;
+  width: 75%;
+  margin: 35px auto;
+  background-image: url(../images/backfatwa.jpg);
+  background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .content-form .container .login-form .login {
+    width: 100%;
+  }
+}
+.content-form .container .login-form .login .overlay {
+  position: absolute;
+  background: rgba(119, 102, 78, 0.6);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.content-form .container .login-form .login h5 {
+  text-align: start;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.content-form .container .login-form .login h5:after {
+  content: "";
+  height: 2px;
+  display: block;
+  width: 25%;
+  margin: 15px 0;
+  background: #fff;
+}
+.content-form .container .login-form .login .fill-in {
+  position: relative;
+  z-index: 2;
+  width: 75%;
+  margin: auto;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .content-form .container .login-form .login .fill-in {
+    width: 100%;
+  }
+}
+.content-form .container .login-form .login .fill-in input {
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+}
+.content-form .container .login-form .login .fill-in .forget-password {
+  display: block;
+  margin-top: 15px;
+  text-align: start;
+}
+.content-form .container .login-form .login .fill-in .forget-password ul {
+  list-style: none;
+  padding: 0;
+}
+.content-form .container .login-form .login .fill-in .forget-password ul li {
+  margin: 10px auto;
+}
+.content-form .container .login-form .login .fill-in .forget-password ul li a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.content-form .container .login-form .login .fill-in .forget-password ul li a:hover {
+  color: #fff;
+}
+.content-form .container .login-form .login .fill-in textarea {
+  height: 200px;
+  margin-top: 15px;
+}
+.content-form .container .login-form .login .fill-in .send {
+  position: relative;
+  z-index: 2;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 5px;
+  background: #e1cfb3;
+  display: block;
+  margin-right: auto;
+}
+.content-form .container .live-air-content {
+  overflow: hidden;
+  background: #fff;
+  width: 900px;
+  margin: 20px auto;
+  padding: 10px 45px 36px;
+  box-shadow: 1px 1px 10px;
+  border-radius: 15px;
+  border: none;
+}
+@media (max-width: 992px) {
+  .content-form .container .live-air-content {
+    width: auto;
+  }
+}
+@media (max-width: 550px) {
+  .content-form .container .live-air-content {
+    padding:0;
+  }
+}
+
+.content-form .container .live-air-content .live-air-text {
+  text-align: center;
+  margin: 15px auto;
+  font-family: "cairo", sans-serif;
+  font-weight: bold;
+}
+.content-form .container .live-air-content .live-air {
+  margin: auto;
+  text-align: center;
+}
+.content-form .container .live-air-content .alram-text {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "cairo", sans-serif;
+  font-weight: bold;
+  color: red;
+}
+
+.about {
+  text-align: right;
+  width: 65%;
+  float: right;
+  font-family: "cairo", sans-serif;
+  border: none;
+  margin: 20px auto;
+  padding: 40px;
+  box-shadow: 1px 1px 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.about h1{
+  text-align: start;
+  font-family: initial;
+}
+@media (max-width: 992px) {
+  .about {
+    width: 100%;
+  }
+}
+.about h5 {
+  font-weight: bold;
+}
+.about p {
+  margin-top: 10px;
+  padding: 15px;
+  line-height: 2.2;
+}
+
+.about p img {
+    max-width:100%;
+}
+footer .overlay {
+  position: absolute;
+  background: rgba(119, 102, 78, 0.8);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+footer h5 {
+  margin: 25px 0;
+}
+/* 
+footer h5:after {
+  content: "";
+  height: 2px;
+  display: block;
+  width: 25%;
+  margin: 15px 0;
+  background: #fff;
+} */
+
+footer .footer-content {
+  margin: 0;
+}
+footer .footer-content .count-visitors {
+  border-right: 2px solid;
+}
+footer .footer-content .services {
+  border-right: 2px solid;
+}
+footer .footer-content .services ul {
+  list-style: none;
+  padding: 0px 10px 0px 0px;
+}
+footer .footer-content .services ul li {
+  margin: 10px 0;
+}
+footer .footer-content .services ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+footer .footer-content .services ul li a:hover {
+  color: #007bff;
+}
+footer .footer-content .social-contact-us {
+  border-right: 2px solid;
+}
+footer .footer-content .social-contact-us ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+footer .footer-content .social-contact-us ul li a i {
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0 7px;
+}
+@media (max-width: 320px) {
+  footer .footer-content .social-contact-us ul li a i {
+    font-size: 24px;
+  }
+}
+
+footer .footer-content .social-contact-us h6 i {
+  margin: 0 5px;
+}
+
+
+
+/*# sourceMappingURL=form.css.map */
+/* start style for search page */
+.search-content-result .search-outline{
+  border: 1px solid #77664e;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px;
+  text-align: start;
+  padding: 15px;
+  margin: 7px auto;
+}
+
+.search-content-result .search-outline .title-search{
+    font-family: "cairo", sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+.search-content-result .search-outline .select-search{
+  font-family: "cairo", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+
+}
+.search-content-result .search-outline .select-search i {
+  margin: 0 8px;
+  color: #1d8afe;
+}
+.search-content-result .search-outline .select-search .search-link{
+  text-decoration: none;
+}
+

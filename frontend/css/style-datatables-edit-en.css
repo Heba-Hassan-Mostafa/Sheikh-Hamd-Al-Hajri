@@ -1,0 +1,264 @@
+/* this to display none this option from orignal css  */
+.dataTables_length{
+  display: none;
+}
+/* start my edit code style */
+.topic-name{
+  text-align: center;
+  margin: 35px 0;
+  padding: 10px;
+  border-radius: 14px;
+  box-shadow: 1px 1px 10px #77664e;
+  background: #f7f7f7;
+}
+.topic-name .title-name{
+  text-align: center;
+  direction: rtl;
+  padding: 10px 6px;
+}
+.books-research-intro{
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.qustions-intro {
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.ask{
+  text-align: right;
+}
+@media(max-width: 425px){.ask{
+  text-align: center;
+}}
+
+@media(max-width:767px){.views{
+  display: none;
+}}
+@media(max-width:768px){.down{
+  display: none;
+}}
+@media(max-width:375px){.date{
+  display: none;
+}}
+@media(max-width:767px){.share{
+  display: none;
+}}
+.nav-title{
+  background: #77664e;
+  color: #fff;
+  font-family: 'Cairo', sans-serif;
+}
+.nav-title-ask-qus{
+  text-align: start;
+  font-weight: bold;
+  font-family: initial;
+}
+.show-all-qus{
+  direction: rtl;
+}
+.details-box{
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+.details-box h6{
+  margin: 12px;
+}
+.details-box h6 span{
+  margin: 0 10px;
+}
+.details-box .share-with{
+  list-style: none;
+  display: inline-flex;
+}
+.details-box .share-with li{
+  margin: 0 5px;
+}
+.details-box .share-with li a i{
+  font-size: 30px;
+}
+.details-box .share-with li a .facebook{
+  color: #3b5999;
+}
+.details-box .share-with li a .twitter{
+  color: #55acee;
+}
+.details-box .share-with li a .instagram{
+  color: #e4405f;
+}
+.details-box .share-with li a .whatsapp{
+  color: #25D366;
+  font-weight: 300;
+}
+.dataTables_empty{
+  font-size: 100px;
+  color: #980000!important;
+  text-align: center;
+}
+.search-icon{
+  font-size: 20px
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-item.active .page-link {
+    background-color: #77664e;
+    font-weight: bold;
+    border: 2px solid;
+
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-item.active .page-link:focus {
+    background-color:#77664e;
+    font-weight: bold;
+    border: 2px solid;
+}
+.page-item:first-child .page-link,.page-item:last-child .page-link ,.page-link{
+  font-weight: bold;
+}
+tr td a {
+  text-decoration: none!important;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+
+/* this style for nav list before datatable */
+.nav-list{
+  display: flex;
+  justify-content: center;
+  margin: 45px auto;
+}
+.nav-list ul{
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  justify-content: center;
+}
+.nav-list ul li{
+  margin: 2px auto;
+  outline: none;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+.nav-list ul li a{
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  background: #77664e;
+  transition: 0.5s ease-in-out;
+}
+.nav-list ul li a:hover{
+  background: #e1cfb3;
+  color: #000;
+}
+
+.nav-list ul li .active{
+  color: #000;
+  background: #e1cfb3;
+}
+
+.odd{
+  background:#f7f7f7; 
+}
+.even{
+  background:#fff; 
+}
+.odd .icon,.even .icon {
+  margin: 0 8px;
+  color: #1d8afe;
+}
+/* this style for fatawy from in qustion and answers page */
+.fatawa-ask {
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  font-family: initial;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px;
+  width: 100%;
+  margin: 35px auto;
+  background-image: url(../images/backfatwa.jpg);
+  background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .fatawa-ask {
+    width: 100%;
+  }
+}
+.fatawa-ask .overlay {
+  position: absolute;
+  background: rgba(119, 102, 78, 0.6);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.fatawa-ask h5 {
+  text-align: start;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.fatawa-ask h5:after {
+  content: "";
+  height: 2px;
+  display: block;
+  width: 35%;
+  margin: 15px 0;
+  background: #fff;
+}
+.fatawa-ask .fill-in {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .fatawa-ask .fill-in {
+    width: 100%;
+  }
+}
+.fatawa-ask .fill-in input {
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+}
+.fatawa-ask .fill-in textarea {
+  position: relative;
+  z-index: 2;
+  height: 200px;
+  margin-top: 20px;
+}
+.fatawa-ask .fill-in .send-your-ask {
+  position: relative;
+  z-index: 2;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 5px;
+  background: #e1cfb3;
+  display: block;
+  margin-right: auto;
+}
+.benefits-name,.books-research-intro{
+  text-align: center;
+  font-family: initial;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.lib-videos-text {
+  margin-top: 25px;
+  display: grid;
+  text-align: center;
+  font-family: initial!important;
+  font-weight: bold;
+}

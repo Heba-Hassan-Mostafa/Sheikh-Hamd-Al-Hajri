@@ -1,0 +1,296 @@
+.content{
+    margin: auto;
+}
+.content .container{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: right;
+    font-family: "Cairo", sans-serif;
+    background: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px ;
+    padding: 60px;
+}
+.content-title-name{
+    font-size: 1.75rem;
+}
+.content-category .container{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: right;
+    font-family: "Cairo", sans-serif;
+    background: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px ;
+    padding: 50px;
+}
+
+@media(max-width:425px){
+  .content-category .container{
+      padding:15px ;
+  }
+}
+.content-category h2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){.content-category .container .switch{flex-wrap: wrap-reverse}}
+.content-category .filter{
+    display: inline-flex;
+    margin: 5px 20px;
+}
+.content-category .filter .icon-path{
+    transform: rotate(90deg);
+    font-size: 20px;
+    color: #1d8afe;
+}
+.content-category .filter .dash-icon{
+    color: #1d8afe;
+}
+.content-category .filter span{
+    margin: auto 7px;
+}
+.content-category .details{
+    width: 510px;
+    margin-left: auto;
+}
+@media(max-width:767px){.content-category .details {
+    width: 320px;
+}
+}
+.content-category .details div{
+    padding:2px;
+}
+.content-category .details i{
+    margin: 0 5px;
+    color: #1d8afe;
+    font-size: 14px;
+}
+.content-category .details ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+.content-category .details ul li {
+   font-size: 14px;
+}
+.content-category .details ul li i{
+    margin: 5px 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media(max-width: 767px){
+  .content-category .details .social-media-sharing {
+     margin: 0 12px;
+  }
+}
+.content-category .details .social-media-sharing a{
+    text-decoration: none;
+    margin: 0px;
+  }
+  .content-category .details .social-media-sharing i {
+      font-size: 35px;
+      margin: 0;
+  }
+  .content-category .details .social-media-sharing .facebook{
+    background: #3b5998;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .content-category .details .social-media-sharing .twitter{
+    background: #55acee;
+    padding: 8px 10px;
+    font-size: 20px;
+    color: #fff; 
+  }
+  .content-category .details .social-media-sharing .whatsapp{
+    background: #4dc247;
+    padding: 8px 11px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .content-category .details .social-media-sharing .messenger{
+    color: #0084ff;
+    background: #0084ff;
+    padding: 8px 11px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .content-category .details .social-media-sharing .telegram{
+    background: #0088cc;
+    padding: 8px 11px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .content-category .details .social-media-sharing .gmail{
+    background: #db4437;
+    padding: 8px 11px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+.content-category img{
+    max-width: 100%!important;
+}
+.content-category p img {
+    max-width: 100%!important;
+}
+@media(max-width:992px){
+    .content-category p img{
+        float:none!important;
+    }
+}
+@media(max-width:992px){
+    .content-category p{
+        margin-right:0!important;
+    }
+}
+
+.article-img{
+display: flex;
+justify-content: center;
+}
+.article-img img{
+    max-width: 75%;
+}
+.content-category .audio{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.content-category .audio .link-to-down{
+    font-weight: bold;
+    text-decoration: none;
+}
+.content-category .audio audio{
+    width: 100%;
+    box-shadow: 1px 1px 10px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin: 5px;
+}
+.content-category .audio-embed{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 375px) {
+    .content-category .audio-embed iframe {
+      width: 295px;
+      height: 220px;
+    }
+  }
+.content-category .video-embed{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+/* .content .video-embed iframe{
+    width: 720px;
+} */
+@media (max-width: 375px) {
+    .content-category .video-embed iframe {
+      width: 295px;
+      height: 220px;
+    }
+  }
+.content-category .religious{
+    margin-top: 15px;
+}
+.content-category .religious .religious-details{
+    text-align: center;
+}
+
+.content-category h6{
+    margin: 35px 15px 0px;
+    font-weight: bold;
+}
+.content-category .long-text{
+    padding: 30px;
+    line-height: 2.4;
+}
+@media(max-width:425px){.content-category .long-text{
+    padding: 5px;
+}}
+.download ul{
+    list-style: none;
+    width: 300px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:all 0.4s ease-in-out;
+    /* width: fit-content;
+    width: -moz-fit-content; */
+    padding: 5px;
+}
+.download ul:hover{
+    color: #1d8afe;
+}
+.download ul i{
+    margin: 0 8px;
+  color: #1d8afe;
+}
+.download ul li{
+    padding: 2px 25px;
+    margin-top: 6px;
+    display: none;
+    
+}
+.download ul li i {
+    color: #c50202;
+    font-size: 20px;
+    margin: auto 7px;
+}
+.download ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.audio-embed iframe ,.video-embed iframe{
+    width: 560px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+ }
+ @media(max-width:550px)
+ {.audio-embed iframe ,.video-embed iframe
+   {
+     width: 350px;
+     height: 200px;
+     margin: 10px auto;
+   }
+ }    
+ @media(max-width:375px)
+     {.audio-embed iframe ,.video-embed iframe
+       {
+         width: 280px;
+         height: 200px;
+         margin: 10px auto;
+       }
+     }
+ 
+/* this style for answers content page */
+.content-category .qustion{
+    border: 1px solid #000;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 7px #000;
+    font-weight: bold;
+    color: #028aff;
+    direction: rtl;
+    text-align: start;
+    margin: 10px auto 25px;
+}
+.content-category .answer-qustion{
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+.content-category .qus-name{
+    text-align: right;
+}

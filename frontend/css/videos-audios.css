@@ -1,0 +1,120 @@
+#page-all-video {
+  justify-content: center;
+  display: flex;;
+  margin:40px auto;
+  margin-bottom:10px;
+  padding: 0px;
+  overflow: hidden;
+}
+@media(max-width:425px){#page-all-video{
+  padding-bottom: 10px;
+}}
+
+#page-all-video li {
+  list-style: none;
+  display: inline;
+}
+
+#page-all-video li a {
+  float: left;
+  display: block;
+  padding: 2px 15px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 3px;
+  color:#000;
+  transition:color .05s ease-in-out;
+}
+
+#page-all-video li:last-child a {
+  margin-right: 0px;
+}
+
+/* this style to hide pre and next */
+
+#page-all-video li .previos , #page-all-video li .next{
+  display: none;
+}
+
+#page-all-video li a.current,
+#page-all-video li a.disable,
+#page-all-video li a:hover {
+  background: #77664e;
+  color: #fff;
+  padding: 2px 15px;
+  font-weight: bold;
+}
+.lib-videos-text {
+  margin-top: 25px;
+  display: grid;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+}
+.lib-videos-text i{
+  margin: 10px auto;
+}
+#wrapper{
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px #000;
+  background: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+@media(max-width:425px)
+    {#wrapper
+      {
+      padding: 0;
+      }
+    }
+#wrapper .contents .video-embed-lib iframe{
+   width: 100%;
+   height: 320px;
+   display: flex;
+   justify-content: center;
+   margin: 20px auto;
+}
+
+@media(max-width:768px)
+{#wrapper .contents .video-embed-lib iframe
+  {
+    width: 100%;
+    height: 370px;
+    margin: 10px auto;
+  }
+}
+
+@media(max-width:425px)
+{#wrapper .contents .video-embed-lib iframe
+  {
+    width: 350px;
+    height: 200px;
+    margin: 10px auto;
+  }
+}
+@media(max-width:375px)
+    {#wrapper .contents .video-embed-lib iframe
+      {
+        width: 280px;
+        height: 200px;
+        margin: 10px auto;
+      }
+    }
+
+
+/* style for audios libirary  */
+
+.odd{
+  background:#f7f7f7;
+}
+.even{
+  background:#fff;
+}
+.odd .listen,.even .listen {
+  margin: 0 8px;
+  color: #1d8afe;
+}
